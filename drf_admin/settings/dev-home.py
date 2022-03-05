@@ -85,36 +85,12 @@ WSGI_APPLICATION = 'drf_admin.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-#
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         # 'NAME': 'swagger',
-#         'NAME': 'learning_drf',
-#         'USER': 'root',
-#         'PASSWORD': 'Mysqlrootpassword',
-#         'HOST': '10.72.244.88',
-#         'PORT': '3306',
-#         'OPTIONS': {
-#             # Tell MySQLdb to connect with 'utf8mb4' character set
-#             'charset': 'utf8mb4',
-#         }
-#
-#     }
-# }
 
-#mac
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         # 'NAME': 'swagger',
-        'NAME': 'learning_drf',
+        'NAME': 'test',
         'USER': 'root',
         'PASSWORD': '12345678',
         'HOST': 'localhost',
